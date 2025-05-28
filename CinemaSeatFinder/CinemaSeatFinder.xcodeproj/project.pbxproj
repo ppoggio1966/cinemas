@@ -1,0 +1,174 @@
+// !UTF8*
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54; // Updated to a more common version
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07F8C1A680F5B00A75B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F8B1A680F5B00A75B9A /* AppDelegate.swift */; };
+		13B07F8E1A680F5B00A75B9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F8D1A680F5B00A75B9A /* SceneDelegate.swift */; };
+		13B07F901A680F5B00A75B9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F8F1A680F5B00A75B9A /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B07F7D1A680F5B00A75B9A /* CinemaSeatFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CinemaSeatFinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F8B1A680F5B00A75B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13B07F8D1A680F5B00A75B9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13B07F8F1A680F5B00A75B9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13B07F911A680F5B00A75B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "CinemaSeatFinder/Info.plist"; sourceTree = "<group>"; };
+        13B07F931A680F5B00A75B9A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "CinemaSeatFinder/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+        13B07F961A680F5B00A75B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "CinemaSeatFinder/Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13B07F771A680F5B00A75B9A = {
+			isa = PBXGroup;
+			children = (
+				13B07F921A680F5B00A75B9A /* CinemaSeatFinder */,
+				13B07F7C1A680F5B00A75B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13B07F7C1A680F5B00A75B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F7D1A680F5B00A75B9A /* CinemaSeatFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B07F921A680F5B00A75B9A /* CinemaSeatFinder */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F8B1A680F5B00A75B9A /* AppDelegate.swift */,
+				13B07F8D1A680F5B00A75B9A /* SceneDelegate.swift */,
+				13B07F8F1A680F5B00A75B9A /* ContentView.swift */,
+                13B07F961A680F5B00A75B9A /* Assets.xcassets */,
+                13B07F911A680F5B00A75B9A /* Info.plist */,
+                13B07F931A680F5B00A75B9A /* LaunchScreen.storyboard */
+			);
+			path = "CinemaSeatFinder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F7E1A680F5B00A75B9A /* CinemaSeatFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07FA01A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CinemaSeatFinder" */;
+			buildPhases = (
+				13B07F7B1A680F5B00A75B9A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CinemaSeatFinder";
+			productName = "CinemaSeatFinder";
+			productReference = 13B07F7D1A680F5B00A75B9A /* CinemaSeatFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13B07F781A680F5B00A75B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1320; // Xcode 13.2
+				ORGANIZATIONNAME = "com.example";
+				TargetAttributes = {
+					13B07F7E1A680F5B00A75B9A = {
+						CreatedOnToolsVersion = 13.2;
+						ProvisioningStyle = Automatic; // Modern Xcode default
+					};
+				};
+			};
+			buildConfigurationList = 13B07F791A680F5B00A75B9A /* Build configuration list for PBXProject "CinemaSeatFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13B07F771A680F5B00A75B9A;
+			productRefGroup = 13B07F7C1A680F5B00A75B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F7E1A680F5B00A75B9A /* CinemaSeatFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F7B1A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07F8C1A680F5B00A75B9A /* AppDelegate.swift in Sources */,
+				13B07F8E1A680F5B00A75B9A /* SceneDelegate.swift in Sources */,
+				13B07F901A680F5B00A75B9A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F9E1A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                TARGETED_DEVICE_FAMILY = "1,2";
+                SWIFT_VERSION = "5.0"; // Specify Swift version
+                IPHONEOS_DEPLOYMENT_TARGET = "15.0"; // Specify deployment target
+                DEVELOPMENT_TEAM = ""; // Needs a team in real Xcode
+                CODE_SIGN_IDENTITY = "Apple Development";
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                // Add other necessary Debug settings
+			};
+			name = Debug;
+		};
+		13B07F9F1A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                TARGETED_DEVICE_FAMILY = "1,2";
+                SWIFT_VERSION = "5.0";
+                IPHONEOS_DEPLOYMENT_TARGET = "15.0";
+                DEVELOPMENT_TEAM = "";
+                CODE_SIGN_IDENTITY = "Apple Development";
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+                // Add other necessary Release settings
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F791A680F5B00A75B9A /* Build configuration list for PBXProject "CinemaSeatFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F9E1A680F5B00A75B9A /* Debug */,
+				13B07F9F1A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07FA01A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CinemaSeatFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F9E1A680F5B00A75B9A /* Debug */,
+				13B07F9F1A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13B07F781A680F5B00A75B9A /* Project object */;
+}
